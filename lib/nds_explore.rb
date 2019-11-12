@@ -9,9 +9,8 @@ end
 
 def print_first_directors_movie_titles
   i = 0
-  x = directors_database[0]
-  while i < x.count do
-    puts "#{x[0][:movies][i][:title]}"
+  while i < directors_database[0].count do
+    puts "#{directors_database[0][0][:movies][i][:title]}"
     i += 1
   end
 end
