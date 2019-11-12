@@ -9,6 +9,7 @@ end
 
 def print_first_directors_movie_titles
   i = 0
+  pp directors_database
   while i < directors_database[0].count do
     puts directors_database[0][0][:movies][i][:title]
     i += 1
